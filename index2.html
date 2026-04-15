@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>West & York | Luxury Resale</title>
+    <meta
+      name="description"
+      content="West & York is a luxury resale destination for authenticated timepieces, rare jewelry, and private sourcing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-frame">
+      <header class="site-header">
+        <a class="brand" href="#top">
+          <span class="brand-mark">WY</span>
+          <span class="brand-text">West & York</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigation"
+        >
+          Menu
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="#arrivals">New Arrivals</a>
+          <a href="#collections">Collections</a>
+          <a href="#services">Services</a>
+          <a href="#journal">Journal</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="#contact">Book a Private Appointment</a>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">
+              Authenticated Watches / Fine Jewelry / Private Sourcing
+            </p>
+            <h1>Rare pieces, impeccably sourced for the modern collector.</h1>
+            <p class="hero-text">
+              Discover investment-worthy timepieces, estate diamonds, and iconic
+              jewelry from the houses that define permanence.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#arrivals"
+                >Shop New Arrivals</a
+              >
+              <a class="button button-secondary" href="#services"
+                >Sell With West & York</a
+              >
+            </div>
+
+            <ul class="hero-highlights" aria-label="Store highlights">
+              <li>Independent authentication on every sale</li>
+              <li>White-glove sourcing for rare references</li>
+              <li>Domestic insured shipping and concierge support</li>
+            </ul>
+          </div>
+
+          <div class="hero-showcase reveal">
+            <!-- Add a premium hero photo here to replace the abstract shapes below. -->
+            <!-- Example: use <img src="images/hero-watch.jpg" alt="Luxury watch and jewelry display" /> inside .hero-visual. -->
+            <div class="hero-visual">
+              <img src="hero phot .jpg" alt="Luxury handbag and jewelry" />
+              <div class="hero-badge">
+                <span>Curated Weekly</span>
+                <strong>From Rolex to Van Cleef</strong>
+              </div>
+            </div>
+
+            <div class="hero-stats">
+              <article>
+                <span>1,200+</span>
+                <p>pieces authenticated</p>
+              </article>
+              <article>
+                <span>48 hrs</span>
+                <p>average offer turnaround</p>
+              </article>
+              <article>
+                <span>Top 1%</span>
+                <p>collector-grade sourcing</p>
+              </article>
+              <article>
+                <span>Global</span>
+                <p>network of trusted buyers</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-bar reveal" aria-label="Brand promises">
+          <p>
+            Verified provenance. Secure payment. Concierge delivery. Pieces
+            selected for lasting value, not passing hype.
+          </p>
+        </section>
+
+        <section class="collections-section" id="collections">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Collections</p>
+            <h2>An elevated edit of the most sought-after categories.</h2>
+          </div>
+
+          <div class="collection-grid">
+            <article class="collection-card reveal">
+              <img
+                class="collection-image"
+                src="watch1.jpg"
+                alt="Luxury watch"
+              />
+              <div class="collection-copy">
+                <p class="collection-label">Timepieces</p>
+                <h3>Swiss icons and collector references</h3>
+                <p>
+                  From sport legends to discreet dress watches, each model is
+                  selected for condition, provenance, and enduring demand.
+                </p>
+              </div>
+            </article>
+
+            <article class="collection-card reveal">
+              <img class="collection-image" src="1.jpg" alt="Luxury jewelry" />
+              <div class="collection-copy">
+                <p class="collection-label">Jewelry</p>
+                <h3>Diamond essentials and statement heirlooms</h3>
+                <p>
+                  Explore signed pieces, exceptional stones, and sculptural gold
+                  designed to live beyond a single season.
+                </p>
+              </div>
+            </article>
+
+            <article class="collection-card reveal">
+              <img class="collection-image" src="bag 1.jpg" alt="Luxury bag" />
+              <div class="collection-copy">
+                <p class="collection-label">Private Sourcing</p>
+                <h3>Hard-to-find pieces secured discreetly</h3>
+                <p>
+                  Tell us the reference, maker, or style you are chasing and our
+                  sourcing desk will pursue it through our private network.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="arrivals-section" id="arrivals">
+          <div class="section-heading reveal">
+            <p class="eyebrow">New Arrivals</p>
+            <h2>Freshly authenticated inventory, released in tight drops.</h2>
+          </div>
+
+          <div
+            class="filter-bar reveal"
+            role="tablist"
+            aria-label="Inventory filters"
+          >
+            <button
+              class="filter-button is-active"
+              type="button"
+              data-filter="all"
+            >
+              All Pieces
+            </button>
+            <button class="filter-button" type="button" data-filter="watch">
+              Timepieces
+            </button>
+            <button class="filter-button" type="button" data-filter="jewelry">
+              Jewelry
+            </button>
+          </div>
+
+          <div class="inventory-grid">
+            <article class="inventory-card reveal" data-category="watch">
+              <!-- Add a product photo here for this arrival item. -->
+              <!-- Replace this div with an <img> tag to show the actual Rolex piece. -->
+              <div class="inventory-visual visual-gold-watch"></div>
+              <div class="inventory-copy">
+                <div class="inventory-meta">
+                  <span>Rolex</span>
+                  <span>Authenticated</span>
+                </div>
+                <h3>Day-Date 36 in Champagne Gold</h3>
+                <p>
+                  Fluted bezel, president bracelet, recently serviced,
+                  collector-kept condition.
+                </p>
+                <div class="inventory-footer">
+                  <strong>$28,400</strong>
+                  <a href="#contact">Request Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="inventory-card reveal" data-category="jewelry">
+              <!-- Add a product photo here for this arrival item. -->
+              <!-- Replace this div with an <img> tag to show the actual necklace or diamond piece. -->
+              <div class="inventory-visual visual-diamond"></div>
+              <div class="inventory-copy">
+                <div class="inventory-meta">
+                  <span>West & York</span>
+                  <span>Estate</span>
+                </div>
+                <h3>Emerald-Cut Diamond Riviere</h3>
+                <p>
+                  Graduated brilliance with platinum setting and exceptional
+                  light return.
+                </p>
+                <div class="inventory-footer">
+                  <strong>$18,900</strong>
+                  <a href="#contact">Request Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="inventory-card reveal" data-category="watch">
+              <!-- Add a product photo here for this arrival item. -->
+              <!-- Replace this div with an <img> tag to show the actual Patek Philippe piece. -->
+              <div class="inventory-visual visual-steel-watch"></div>
+              <div class="inventory-copy">
+                <div class="inventory-meta">
+                  <span>Patek Philippe</span>
+                  <span>Archive Ready</span>
+                </div>
+                <h3>Aquanaut in Stainless Steel</h3>
+                <p>
+                  Balanced proportions, modern sport profile, complete set with
+                  papers.
+                </p>
+                <div class="inventory-footer">
+                  <strong>$61,500</strong>
+                  <a href="#contact">Request Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="inventory-card reveal" data-category="jewelry">
+              <!-- Add a product photo here for this arrival item. -->
+              <!-- Replace this div with an <img> tag to show the actual Cartier bracelet. -->
+              <div class="inventory-visual visual-bracelet"></div>
+              <div class="inventory-copy">
+                <div class="inventory-meta">
+                  <span>Cartier</span>
+                  <span>Certified</span>
+                </div>
+                <h3>Love Bracelet in Rose Gold</h3>
+                <p>
+                  Iconic screw motif, rich polish, original screwdriver and
+                  certificate included.
+                </p>
+                <div class="inventory-footer">
+                  <strong>$7,800</strong>
+                  <a href="#contact">Request Details</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="services-section" id="services">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Services</p>
+            <h2>
+              Buy, consign, and source with a team built for discretion and
+              trust.
+            </h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <span class="service-index">01</span>
+              <h3>Consignment Management</h3>
+              <p>
+                We position your piece with precise pricing, collector-facing
+                presentation, and direct outreach to qualified buyers.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-index">02</span>
+              <h3>Immediate Purchase Offers</h3>
+              <p>
+                For select watches and jewelry, we provide fast offers with
+                transparent market reasoning and secure payment handling.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-index">03</span>
+              <h3>Private Client Sourcing</h3>
+              <p>
+                We locate specific references, compare condition across the
+                market, and secure the right piece without public guesswork.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="story-section" id="journal">
+          <div class="story-panel reveal">
+            <div class="story-copy">
+              <p class="eyebrow">West Journal</p>
+              <h2>
+                The resale market should feel informed, intimate, and
+                beautifully considered.
+              </h2>
+              <p>
+                West & York was shaped around the idea that luxury resale
+                deserves the same atmosphere as the maisons themselves:
+                thoughtful presentation, serious authentication, and service
+                that feels personal from inquiry to delivery.
+              </p>
+            </div>
+
+            <div class="story-points">
+              <figure class="story-media">
+                <img
+                  src="2.jpg"
+                  alt="Editorial luxury still life featuring jewelry and accessories"
+                />
+                <figcaption>Editorial feature image example</figcaption>
+              </figure>
+              <article>
+                <strong>Authentication First</strong>
+                <p>
+                  Every accepted piece is reviewed for condition, originality,
+                  and market confidence before it reaches the floor.
+                </p>
+              </article>
+              <article>
+                <strong>Collector-Led Curation</strong>
+                <p>
+                  We favor references and jewelry houses with strong heritage,
+                  design integrity, and long-term desirability.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section reveal" id="contact">
+          <div class="contact-copy">
+            <p class="eyebrow">Private Appointment</p>
+            <h2>Tell us what you are buying, selling, or searching for.</h2>
+            <p>
+              Share a few details and our concierge team will follow up with
+              availability, offers, or sourcing guidance.
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" />
+            </label>
+            <label>
+              Interest
+              <select name="interest">
+                <option>Buying a piece</option>
+                <option>Selling a piece</option>
+                <option>Consignment</option>
+                <option>Private sourcing</option>
+              </select>
+            </label>
+            <label>
+              Details
+              <textarea
+                name="project"
+                rows="4"
+                placeholder="Brand, reference, stone details, budget, or condition notes"
+              ></textarea>
+            </label>
+            <button class="button button-primary" type="submit">
+              Submit Inquiry
+            </button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
